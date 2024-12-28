@@ -71,5 +71,7 @@ pnpm run deploy
 ## API中のクエリの実行
 
 ## tips
-### ローカルのd１を削除する
-`.wrangler/state/d1/miniflare-D1DatabaseObject`内のファイルを全て削除する。
+- ローカルのd１を削除する
+  `.wrangler/state/d1/miniflare-D1DatabaseObject`内のファイルを全て削除する。
+- [Drizzle ORM | SQLite](https://github.com/drizzle-team/drizzle-orm/blob/main/drizzle-orm/src/sqlite-core/README.md)
+
