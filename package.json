@@ -1,0 +1,24 @@
+{
+	"name": "hono-drizzle",
+	"scripts": {
+		"dev": "wrangler dev",
+		"preview": "wrangler dev --remote",
+		"deploy": "wrangler deploy --minify",
+		"format": "pnpm biome format --write"
+	},
+	"dependencies": {
+		"@hono/zod-validator": "^0.4.2",
+		"dotenv": "^16.4.7",
+		"drizzle-orm": "^0.38.3",
+		"drizzle-zod": "^0.6.1",
+		"hono": "^4.6.14",
+		"zod": "^3.24.1"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "1.9.4",
+		"@cloudflare/workers-types": "^4.20241218.0",
+		"@types/node": "^22.10.2",
+		"drizzle-kit": "^0.30.1",
+		"wrangler": "^3.96.0"
+	}
+}
